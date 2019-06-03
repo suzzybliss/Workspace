@@ -60,6 +60,31 @@ Grid-Rotator Project
         btn5.onclick=function () {
         rotate=btn1.innerHTML; btn1.innerHTML=btn4.innerHTML; btn4.innerHTML=btn7.innerHTML; btn7.innerHTML=btn8.innerHTML; btn8.innerHTML=btn9.innerHTML; btn9.innerHTML=btn6.innerHTML; btn6.innerHTML=btn3.innerHTML; btn3.innerHTML=btn2.innerHTML; btn2.innerHTML=rotate;
         }
+        
+        btn1.onclick=function () {
+        rotate1=btn1.innerHTML; btn1.innerHTML=btn2.innerHTML; btn2.innerHTML=btn3.innerHTML; btn3.innerHTML=btn6.innerHTML; btn6.innerHTML=btn9.innerHTML; btn9.innerHTML=btn8.innerHTML; btn8.innerHTML=btn7.innerHTML; btn7.innerHTML=btn4.innerHTML; btn4.innerHTML=rotate1;
+        }
+        btn2.onclick=function () {
+        btn1.onclick()
+        }
+        btn3.onclick=function () {
+        btn1.onclick()
+        }
+        btn4.onclick=function () {
+        btn1.onclick()
+        }
+        btn6.onclick=function () {
+        btn1.onclick()
+        }
+        btn7.onclick=function () {
+        btn1.onclick()
+        }
+        btn8.onclick=function () {
+        btn1.onclick()
+        }
+        btn9.onclick=function () {
+        btn1.onclick()
+        }
     </script>
 </body>
 </html>
